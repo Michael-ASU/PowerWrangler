@@ -8,7 +8,8 @@ Here we will add descriptions of the various code modules and how they are used.
 * AnalogMonitorSerial.ino - Must be connected to Arduino IDE, will duplicate BLE output to serial logger
 
 ### Central Node
-Michael is still working through issues with the central node. The first few Bluetooth libraries I tried were very unstable. 
+Michael is still working through communication issues with the central node. The first few Bluetooth libraries I tried were very unstable. 
+
 We'll use this repo to host: 
 * User Interface (web directory)
 * Communication code to the remote nodes
