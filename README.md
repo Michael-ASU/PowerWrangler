@@ -1,11 +1,15 @@
-# PowerWrangler
+Welcome to the PowerWrangler wiki!
 
-## Central Node
-Repo will hold the contents of /var/html/www/ on the central node
+## Purpose
+Here we will add descriptions of the various code modules and how they are used.
 
-Repo will identify required frameworks and supporting data structure
+### Remote Node
+* AnalogMonitorNoSerial.ino - Can run a remote Arduino Nano node, without IDE connection
+* AnalogMonitorSerial.ino - Must be connected to Arduino IDE, will duplicate BLE output to serial logger
 
-## Remote Node
-Repo will contain the Arudino code to flash to the Nano device
-
-Repo will contain wiring schematics surrounding the Nano
+### Central Node
+Michael is still working through issues with the central node. The first few Bluetooth libraries I tried were very unstable. 
+We'll use this repo to host: 
+* User Interface (web directory)
+* Communication code to the remote nodes
+* The underlying data processing code
